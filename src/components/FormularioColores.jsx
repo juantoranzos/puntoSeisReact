@@ -101,7 +101,7 @@ const FormularioColores = () => {
           <Form className="bg-white " onSubmit={handleSubmit}>
             <Form.Group className="mb-3 bg-white">
               <Form.Label className=" bg-white text-center">
-                Ingresa un Color 
+                Ingresa un Color porfavor
               </Form.Label>
               <div className="d-flex ">
                 <div
