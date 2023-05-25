@@ -1,21 +1,16 @@
+import { useState } from 'react'
 import './App.css'
-import Cards from './components/Cards';
-import Formulario from './components/Formulario'
+import {  Container} from "react-bootstrap";
+import FormularioColores from './components/FormularioColores';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 function App() {
+
   return (
-    <>
-    <h2>Administrar colores</h2>
-    <hr />
-   <Formulario/>
-   <hr />
-   <Cards/>
-   <hr />
-   <footer className='bg-dark text-light '>
-    <p className='text-center '>Todos los derechos reservados &copy;</p>
-   </footer>
+    < >
+    <Container className=''>
+      <FormularioColores/>
+    </Container>
+      
     </>
   )
 }
